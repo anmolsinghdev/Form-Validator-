@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-validator</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <form id="form" class="form">
+            <h3 class="heading">Register With Us</h3>
+
+            <div class="form-control">
+              <label for="username">Username</label>
+              <input type="text" id="username" placeholder="Enter Username" />
+              <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter Email" />
+              <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                id="password"
+              />
+              <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                placeholder="Enter Password again"
+                id="password2"
+              />
+              <small>Error Message</small>
+            </div>
+
+            <button class="btn submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
